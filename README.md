@@ -13,6 +13,7 @@ Dawamul Fikri Aqil 5025201025 - DAA (C)]
 ## Description
 We made Snake Game named "SNAKE : APPLE RIGHT AWAY!!!" by using BFS algorithm. The snake will use BFS algorithm to find the shortest path between its head and the apple (let's call it path_1). If path1 is not available, then go to step 4. Create a virtual snake identical to the original snake and make it follow path_1. After the virtual snake reaches the apple, check if the path between the virtual snake's head and its tail is available (let's call it path_2), if so, then make the original snake follow path_1. If path_1 or path_2 are not available, make the original snake follow its tail.
 
+
 •	settings.py : contains game settings and global variables like width, height, etc..
 
 •	snake.py : contains Snake and Square classes.
@@ -41,6 +42,7 @@ We made Snake Game named "SNAKE : APPLE RIGHT AWAY!!!" by using BFS algorithm. T
 ![6](https://user-images.githubusercontent.com/94452616/168068154-80b4fc3c-a040-42f6-aa07-4097d916326c.jpg)
 
 •	If there is a path between v_snake and it’s tail, choose BFS path to apple (fastest and shortest path)
+
 ![7](https://user-images.githubusercontent.com/94452616/168068005-a34f4b76-d355-49e8-be73-318a31472173.jpg)
 
 •	If path_1 or path_2 not available, these 3 conditions:
@@ -51,11 +53,11 @@ We made Snake Game named "SNAKE : APPLE RIGHT AWAY!!!" by using BFS algorithm. T
   2.	If score is even, choose longest_path_to_tail() to follow the tail,
 ![9](https://user-images.githubusercontent.com/94452616/168068074-ccb18faa-4b63-42a1-9b67-d6b0506b0260.png)
 
-if odd use any_safe_move()
-![10](https://user-images.githubusercontent.com/94452616/168068080-d5513d4b-6df6-4869-8cbf-83f6179aeff7.png)
+   if odd use any_safe_move()
+![10](https://user-images.githubusercontent.com/94452616/168074545-4c854cf4-7294-49df-ad4c-2c4cb4d12723.png)
 
-if path to tail is available, choose shortest path to tail
-![12](https://user-images.githubusercontent.com/94452616/168068115-f485d958-4290-4c7e-978a-4935450292a8.png)
+   if path to tail is available, choose shortest path to tail
+![12](https://user-images.githubusercontent.com/94452616/168074560-2327e2d5-e0eb-4676-a37c-9bc5c38fdb8e.png)
 
   3.	Change the follow tail method if the snake gets stuck in a loop. Snake couldn’t find a path and will probably die
 ![11](https://user-images.githubusercontent.com/94452616/168068097-de35466f-2a53-4c37-b254-a6ef8aa24b3a.png)  
