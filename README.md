@@ -8,7 +8,7 @@ We made Snake Game by using BFS algorithm. The snake will use BFS algorithm to f
 •	settings.py : contains game settings and global variables like width, height, etc..
 •	snake.py : contains Snake and Square classes.
 •	play.py : contains code for running the project.
-To run the game, you can install python 3 and install these modules: pip install pygame and run play.py file
+To run the game, you can install python 3 and install these modules: pip install pygame and run play.py file.
 
 ## Result
 ![gameplay](https://user-images.githubusercontent.com/38482276/87240274-cae19380-c420-11ea-8193-bddab2ef379d.gif)
