@@ -26,7 +26,7 @@ We made Snake Game named "SNAKE : APPLE RIGHT AWAY!!!" by using BFS algorithm. T
 •	Find shortest path between (start_position, end_position)
 ![1](https://user-images.githubusercontent.com/94452616/168067962-4766d5a9-5ad9-40f7-b956-8b01cf96e083.jpg)
 
-•	Starting from end node, we will find the parent node of each node 
+•	Starting from end node, we will find the parent node of each node
 ![2](https://user-images.githubusercontent.com/94452616/168067968-69aa1adb-2eba-420e-9436-ae77b7340a3e.jpg)
 
 •	Creates a copy of snake (same size, same position, etc)
