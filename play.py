@@ -1,10 +1,8 @@
 from snake import *
 from os import environ
 
-
 def draw_screen(surface):
     surface.fill(SURFACE_CLR)
-
 
 def draw_grid(surface):
     x = 0
@@ -14,7 +12,6 @@ def draw_grid(surface):
         y = y + SQUARE_SIZE
         pygame.draw.line(surface, GRID_CLR, (x, 0), (x, HEIGHT))
         pygame.draw.line(surface, GRID_CLR, (0, y), (WIDTH, y))
-
 
 def play_game():
     pygame.init()
@@ -33,7 +30,6 @@ def play_game():
 
         clock.tick(FPS)
         pygame.display.update()
-
 
 if __name__ == '__main__':
     play_game()
