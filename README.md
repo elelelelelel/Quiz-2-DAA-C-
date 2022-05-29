@@ -4,10 +4,8 @@
 .
 ##  Member of Group
 Nazhifah Elqolby 5025201156 - DAA (C)
-
 Raden Pandu Anggono Rasyid 5025201024 - DAA (C)
-
-Dawamul Fikri Aqil 5025201025 - DAA (C)]
+Dawamul Fikri Aqil 5025201025 - DAA (C)
 
 
 ## Description
